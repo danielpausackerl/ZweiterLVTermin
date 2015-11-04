@@ -2,20 +2,22 @@
 public class Temperatur {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		// Übung (#3)
 
-		double celsius = 20;
+		double celsius = 40;
+		double result = celsius2Fahrenheit(celsius);
 
-		System.out.println(celsius + " Grad Celsius sind " + fahrenheit + " Grad Fahrenheit ");
-
-		double fahrenheit = 20;
+		System.out.println(celsius + " Grad Celsius sind " + result + " Grad Fahrenheit");
 
 	}
 
 	public static double celsius2Fahrenheit(double celsius) {
-		return (9.0 / 5.0) * celsius + 32;
+
+		double result = ((9.0 / 5.0) * celsius + 32);
+
+		return result;
+
 	}
 
 }
