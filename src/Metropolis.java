@@ -19,7 +19,7 @@ public class Metropolis {
 
 		double totalTaxes = inhabitants * taxPerPersonAndMonth * 12;
 
-		boolean resultB = inhabitants > 200_000 && totalTaxes > 720_000;
+		boolean resultB = inhabitants > 200_000 && totalTaxes > 720_000_000;
 
 		return resultA || resultB;
 
