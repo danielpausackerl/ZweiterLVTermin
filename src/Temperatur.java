@@ -5,7 +5,7 @@ public class Temperatur {
 
 		// Übung (#3)
 
-		double celsius = 40;
+		double celsius = 25;
 		double result = celsius2Fahrenheit(celsius);
 
 		System.out.println(celsius + " Grad Celsius sind " + result + " Grad Fahrenheit");

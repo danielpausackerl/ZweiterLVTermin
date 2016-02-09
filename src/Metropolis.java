@@ -5,7 +5,7 @@ public class Metropolis {
 		// Übung #4
 
 		boolean isCapital = true;
-		int inhabitants = 150_000;
+		int inhabitants = 200_000;
 		double taxPerPersonAndMonth = 1_000;
 
 		boolean result = isMetropolis(isCapital, inhabitants, taxPerPersonAndMonth);
